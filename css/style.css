@@ -140,6 +140,21 @@ img {
     border: 2px solid var(--ps_blue);
 }
 
+.ps5 .col-4:hover .active:hover {
+    opacity: 1 !important;
+}
+
+.ps5 .col-4:hover .layover::after {
+    content: '';
+    position: absolute;
+    bottom: -1rem;
+    left: 1.5rem;
+    height: 2px;
+    display: block;
+    background-color: var(--ps_blue);
+    width: calc(100% - 3rem);
+}
+
 /* #endregion */
 
 /* #endregion */
