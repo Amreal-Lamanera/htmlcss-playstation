@@ -4,7 +4,9 @@
 
 /* #region UTILITY */
 
-
+:root {
+    --ps_blue: #0070D1;
+}
 
 /* #endregion */
 
@@ -14,7 +16,21 @@
 
 /* #region HEADER */
 
+.main-nav .my_toggle::after {
+    border: solid rgba(0, 0, 0, 0.5);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 
+.main-nav .navbar-collapse::before {
+    content: '';
+    border-top: 1px solid var(--ps_blue);
+    margin: 1rem 0;
+    display: block;
+}
 
 /* #endregion */
 
@@ -44,8 +60,6 @@
 
 /* #region UTILITY */
 
-.debug h1 {
-    color: red;
-}
+
 
 /* #endregion */
