@@ -17,6 +17,11 @@ img {
     background-color: var(--orange);
 }
 
+
+.my_rounded {
+    border-radius: 1.5rem;
+}
+
 /* #endregion */
 
 /********************************
@@ -64,6 +69,27 @@ img {
     background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: top;
+}
+
+.hero .col img {
+    transition: all 200ms;
+    width: calc(100%-2px);
+}
+
+.hero .col .layover {
+    content: '';
+    display: none;
+    position: absolute;
+    border: 2px solid var(--ps_blue);
+    border-radius: 1.5rem;
+    top: -4px;
+    right: calc(0.75rem - 4px);
+    bottom: -4px;
+    left: calc(0.75rem - 4px);
+}
+
+.hero .col:hover .layover {
+    display: block !important;
 }
 
 /* #endregion */
