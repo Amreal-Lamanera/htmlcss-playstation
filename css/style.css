@@ -57,6 +57,17 @@ img {
     width: 5.25rem;
 }
 
+.main-header {
+    display: contents;
+}
+
+.main-header .main-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #FFF;
+}
+
 .main-nav .my_toggle::after {
     border: solid rgba(0, 0, 0, 0.5);
     border-width: 0 2px 2px 0;
