@@ -17,6 +17,10 @@ img {
     background-color: var(--orange);
 }
 
+.my-color__blue {
+    color: var(--ps_blue);
+}
+
 
 .my_rounded {
     border-radius: 1.5rem;
@@ -110,6 +114,21 @@ img {
 
 /* #endregion */
 
+/********************************
+    PS5
+*********************************/
+
+/* #region PS5 */
+
+.ps5 {
+    padding: 2.125rem 0;
+}
+
+.ps5 .title_fs {
+    font-size: 2.5rem;
+}
+
+/* #endregion */
 
 /* #endregion */
 
