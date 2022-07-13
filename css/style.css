@@ -8,6 +8,10 @@
     --ps_blue: #0070D1;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* #endregion */
 
 /********************************
@@ -15,6 +19,10 @@
 *********************************/
 
 /* #region HEADER */
+
+.main-header .sony-logo img {
+    width: 5.25rem;
+}
 
 .main-nav .my_toggle::after {
     border: solid rgba(0, 0, 0, 0.5);
