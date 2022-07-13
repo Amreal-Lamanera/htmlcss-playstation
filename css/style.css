@@ -6,10 +6,15 @@
 
 :root {
     --ps_blue: #0070D1;
+    --orange: #CD3D0F;
 }
 
 img {
     max-width: 100%;
+}
+
+.my-bg__orange {
+    background-color: var(--orange);
 }
 
 /* #endregion */
@@ -48,6 +53,20 @@ img {
 
 /* #region MAIN */
 
+/********************************
+    HERO
+*********************************/
+
+/* #region HERO */
+
+.hero .carousel {
+    height: 600px;
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: top;
+}
+
+/* #endregion */
 
 
 /* #endregion */
