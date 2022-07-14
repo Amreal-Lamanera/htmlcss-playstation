@@ -22,6 +22,11 @@
     font-size: 0.5rem;
 }
 
+.ps5 p,
+.ps4 p {
+    font-size: 1.15rem;
+}
+
 .title_fs {
     font-size: 2rem;
 }
