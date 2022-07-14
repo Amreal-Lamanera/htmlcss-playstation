@@ -74,13 +74,22 @@ img {
     background-color: #FFF;
 }
 
+.my_toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 .main-nav .my_toggle::after {
     border: solid rgba(0, 0, 0, 0.5);
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
     transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+}
+
+.main-nav .my_toggle.show::after {
+    transform: rotate(225deg);
 }
 
 .main-nav .navbar-collapse::before {
