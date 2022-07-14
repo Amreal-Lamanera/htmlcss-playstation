@@ -37,6 +37,7 @@ img {
 }
 
 .my_btn {
+    position: relative;
     display: inline-block;
 }
 
@@ -72,6 +73,10 @@ img {
     top: 0;
     z-index: 1;
     background-color: #FFF;
+}
+
+.main-header .my_btn a:hover::before {
+    border: 2px solid #000;
 }
 
 .my_toggle {
@@ -138,6 +143,7 @@ img {
     transition: all 300ms ease-in-out;
 }
 
+.hero .my_card.active .layover,
 .hero .my_card:hover .layover {
     border: 2px solid var(--ps_blue);
     background-color: transparent;
@@ -163,18 +169,18 @@ img {
     border: 2px solid var(--ps_blue);
 }
 
-.ps5 .col-4 .my_card {
+.ps5 .my_card:not([class*="active"]) {
     opacity: 0.5;
 }
 
-.ps5 .col-4:hover .my_card {
+.ps5 .my_card:hover {
     opacity: 1;
 }
 
-.ps5 .col-4:hover .layover {
+.ps5 .my_card.active .layover,
+.ps5 .my_card:hover .layover {
     content: '';
     position: absolute;
-    bottom: -0.5rem;
     left: 1.5rem;
     height: 2px;
     display: block;
