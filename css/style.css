@@ -26,6 +26,10 @@
     font-size: 2rem;
 }
 
+.sub-title_fs {
+    font-size: 1.75rem;
+}
+
 img {
     max-width: 100%;
 }
@@ -45,7 +49,6 @@ img {
 .my-color__blue {
     color: var(--ps_blue);
 }
-
 
 .my_rounded {
     border-radius: 1.5rem;
@@ -221,6 +224,23 @@ img {
 
 .news .carousel {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+.news .my_btn a:hover::before {
+    border: 2px solid var(--orange);
+}
+
+/* #endregion */
+
+
+/********************************
+    PS4
+*********************************/
+
+/* #region PS4 */
+
+.ps4 .my_btn a:hover::before {
+    border: 2px solid var(--ps_blue);
 }
 
 /* #endregion */
