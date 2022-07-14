@@ -253,6 +253,10 @@ img {
     border: 2px solid var(--orange);
 }
 
+.news .my_rounded {
+    border-radius: 2.5rem;
+}
+
 /* #endregion */
 
 
@@ -293,6 +297,16 @@ img {
     }
 
 }
+
+/* #endregion */
+
+/********************************
+    SALES
+*********************************/
+
+/* #region SALES */
+
+
 
 /* #endregion */
 
