@@ -155,7 +155,7 @@ img {
 }
 
 .ps5 .col-4:hover .active:hover {
-    opacity: 1 !important;
+    opacity: 1;
 }
 
 .ps5 .col-4:hover .layover::after {
