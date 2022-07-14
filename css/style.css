@@ -60,9 +60,9 @@ img {
 }
 
 .carousel {
-    height: 600px;
     background-size: cover;
     background-position: top;
+    height: 600px;
 }
 
 .my_btn {
@@ -233,6 +233,10 @@ img {
 
 .news .carousel {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+.news .carousel img {
+    max-width: 450px;
 }
 
 .news .my_btn a:hover::before {
