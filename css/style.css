@@ -22,6 +22,10 @@
     font-size: 0.5rem;
 }
 
+.title_fs {
+    font-size: 2rem;
+}
+
 img {
     max-width: 100%;
 }
@@ -67,6 +71,11 @@ img {
     right: -6px;
     left: -6px;
     transition: all 200ms ease-in-out;
+}
+
+.r_special {
+    font-size: 1rem;
+    vertical-align: text-top;
 }
 
 /* #endregion */
@@ -176,10 +185,6 @@ img {
 
 .ps5 {
     padding: 2.125rem 0;
-}
-
-.ps5 .title_fs {
-    font-size: 2rem;
 }
 
 .ps5 .my_btn a:hover::before {
