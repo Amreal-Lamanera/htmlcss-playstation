@@ -5,11 +5,13 @@
 /* #region UTILITY */
 
 :root {
-    --ps_blue: #0070D1;
+    --ps-blue: #0070D1;
+    --blue: #00439C;
     --orange: #CD3D0F;
     --dark: #1F1F1F;
     --grey: #BEBCBB;
     --btn-grey: #D9DADC;
+    --dark-blue: #161C3B;
 }
 
 * {
@@ -45,8 +47,12 @@ img {
     background-color: var(--orange);
 }
 
+.my-bg__p-blue {
+    background-color: var(--ps-blue);
+}
+
 .my-bg__blue {
-    background-color: var(--ps_blue);
+    background-color: var(--blue);
 }
 
 .my-bg__dark {
@@ -61,8 +67,12 @@ img {
     background-color: var(--btn-grey);
 }
 
+.my-bg__dark-blue {
+    background-color: var(--dark-blue);
+}
+
 .my-color__blue {
-    color: var(--ps_blue);
+    color: var(--ps-blue);
 }
 
 .my_rounded {
@@ -94,6 +104,18 @@ img {
 .r_special {
     font-size: 1rem;
     vertical-align: text-top;
+}
+
+.ps__card {
+    height: 300px;
+}
+
+@media (min-width: 768px) {
+
+    .ps__card {
+        height: 100%;
+    }
+
 }
 
 /* #endregion */
@@ -286,18 +308,6 @@ img {
     color: var(--ps_blue);
 }
 
-.ps-plus .plus__card {
-    height: 300px;
-}
-
-@media (min-width: 768px) {
-
-    .ps-plus .plus__card {
-        height: 100%;
-    }
-
-}
-
 /* #endregion */
 
 /********************************
@@ -307,6 +317,17 @@ img {
 /* #region SALES */
 
 
+/* #endregion */
+
+/********************************
+    PS-now
+*********************************/
+
+/* #region PS-now */
+
+.ps-now .my_btn a:hover::before {
+    border: 2px solid var(--btn-grey);
+}
 
 /* #endregion */
 
