@@ -7,6 +7,19 @@
 :root {
     --ps_blue: #0070D1;
     --orange: #CD3D0F;
+    --dark: #1F1F1F;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-fw_medium {
+    font-weight: 500;
+}
+
+.my-fs_tm {
+    font-size: 0.5rem;
 }
 
 img {
@@ -19,6 +32,10 @@ img {
 
 .my-bg__blue {
     background-color: var(--ps_blue);
+}
+
+.my-bg__dark {
+    background-color: var(--dark);
 }
 
 .my-color__blue {
