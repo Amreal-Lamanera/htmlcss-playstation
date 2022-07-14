@@ -163,11 +163,15 @@ img {
     border: 2px solid var(--ps_blue);
 }
 
-.ps5 .col-4:hover .active:hover {
+.ps5 .col-4 .active {
+    opacity: 0.5;
+}
+
+.ps5 .col-4:hover .active {
     opacity: 1;
 }
 
-.ps5 .col-4:hover .layover::after {
+.ps5 .col-4:hover .layover {
     content: '';
     position: absolute;
     bottom: -1rem;
