@@ -8,6 +8,8 @@
     --ps_blue: #0070D1;
     --orange: #CD3D0F;
     --dark: #1F1F1F;
+    --grey: #BEBCBB;
+    --btn-grey: #D9DADC;
 }
 
 * {
@@ -49,6 +51,14 @@ img {
 
 .my-bg__dark {
     background-color: var(--dark);
+}
+
+.my-bg__grey {
+    background-color: var(--grey);
+}
+
+.my-bg__ntn_grey {
+    background-color: var(--btn-grey);
 }
 
 .my-color__blue {
@@ -254,6 +264,34 @@ img {
 
 .ps4 .my_btn a:hover::before {
     border: 2px solid var(--ps_blue);
+}
+
+/* #endregion */
+
+/********************************
+    PS-PLUS
+*********************************/
+
+/* #region PS-PLUS */
+
+.ps-plus .my_btn a:hover::before {
+    border: 2px solid var(--btn-grey);
+}
+
+.ps-plus .btn:hover {
+    color: var(--ps_blue);
+}
+
+.ps-plus .plus__card {
+    height: 300px;
+}
+
+@media (min-width: 768px) {
+
+    .ps-plus .plus__card {
+        height: 100%;
+    }
+
 }
 
 /* #endregion */
