@@ -163,11 +163,11 @@ img {
     border: 2px solid var(--ps_blue);
 }
 
-.ps5 .col-4 .active {
+.ps5 .col-4 .my_card {
     opacity: 0.5;
 }
 
-.ps5 .col-4:hover .active {
+.ps5 .col-4:hover .my_card {
     opacity: 1;
 }
 
