@@ -109,8 +109,12 @@ img {
     background-color: #FFF;
 }
 
-.main-header .my_btn a:hover::before {
-    border: 2px solid #000;
+.main-header .btn {
+    transition: all 200ms ease-in-out;
+}
+
+.main-header .btn:hover {
+    opacity: 0.5;
 }
 
 .my_toggle {
