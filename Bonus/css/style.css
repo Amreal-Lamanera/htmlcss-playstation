@@ -126,6 +126,38 @@ img {
 
 /* #region HEADER */
 
+/* #region BONUS */
+
+#my-navbar_dropdown .nav-item {
+    position: static;
+}
+
+#my-navbar_dropdown .dropdown-menu {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+}
+
+#my-navbar_dropdown .dropdown-menu.show {
+    display: flex;
+}
+
+#my-navbar_dropdown .dropdown-item {
+    padding: 0.5rem 3rem;
+}
+
+#my-navbar_dropdown .dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: transparent;
+}
+
+#my-navbar_dropdown .my_card:hover {
+    border-radius: 0.25rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* #endregion */
+
 .main-header .sony-logo img {
     width: 5.25rem;
 }
