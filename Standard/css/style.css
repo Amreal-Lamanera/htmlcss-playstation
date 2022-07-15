@@ -250,7 +250,7 @@ img {
     left: 1.5rem;
     height: 2px;
     display: block;
-    background-color: var(--ps_blue);
+    background-color: var(--ps-blue);
     width: calc(100% - 3rem);
 }
 
@@ -305,7 +305,7 @@ img {
 }
 
 .ps-plus .btn:hover {
-    color: var(--ps_blue);
+    color: var(--ps-blue);
 }
 
 /* #endregion */
