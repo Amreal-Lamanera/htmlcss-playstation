@@ -232,7 +232,7 @@ img {
 }
 
 .ps5 .my_btn a:hover::before {
-    border: 2px solid var(--ps_blue);
+    border: 2px solid var(--ps-blue);
 }
 
 .ps5 .my_card:not([class*="active"]) {
@@ -289,7 +289,7 @@ img {
 /* #region PS4 */
 
 .ps4 .my_btn a:hover::before {
-    border: 2px solid var(--ps_blue);
+    border: 2px solid var(--ps-blue);
 }
 
 /* #endregion */
