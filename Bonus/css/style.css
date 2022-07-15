@@ -188,7 +188,7 @@ img {
 
 /* #region HERO */
 
-.hero .carousel {
+/* .hero .carousel {
     background-image: url('../img/jumbo-bg.png');
 }
 
@@ -217,7 +217,69 @@ img {
 .hero .my_card:hover .layover {
     border: 2px solid var(--ps-blue);
     background-color: transparent;
+} */
+
+.carousel-item:nth-child(1) {
+    height: 500px;
+    background-image: url(../img/ret.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+.carousel-item:nth-child(2) {
+    height: 500px;
+    background-image: url(../img/mwmob.jpg);
+    background-position: 0 85%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-item:nth-child(3) {
+    height: 500px;
+    background-image: url(../img/elden-ring-pc-gioco-steam-europe-cover.webp);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) {
+    .carousel-item:nth-child(3) {
+        background-image: url(../img/er.jpg);
+    }
+
+    .carousel-item:nth-child(2) {
+        background-image: url(../img/mw.jpg);
+        background-position: 90% 0;
+    }
+}
+
+@media screen and (min-width: 576px) {}
+
+#my_carousel {
+    height: auto;
+}
+
+#my_indicators {
+    position: static;
+    margin: 1rem 0;
+}
+
+#my_indicators.carousel-indicators [data-bs-target] {
+    width: auto;
+    height: auto;
+    margin: 0;
+    text-indent: 0;
+}
+
+#my_indicators button {
+    background-color: #1F1F1F;
+}
+
+#my-inner {
+    /* aspect-ratio: 1; */
+}
+
 
 /* #endregion */
 
